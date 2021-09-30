@@ -18,6 +18,8 @@ interface CardsProps {
 export function CardList({ cards }: CardsProps): JSX.Element {
   // TODO MODAL USEDISCLOSURE
 
+  // TODO
+
   // TODO SELECTED IMAGE URL STATE
 
   // TODO FUNCTION HANDLE VIEW IMAGE
