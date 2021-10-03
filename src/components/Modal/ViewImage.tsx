@@ -23,9 +23,9 @@ export function ModalViewImage({
     <>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent borderRadius="md" w="full">
+        <ModalContent borderRadius="md">
           <ModalBody>
-            <Image src={imgUrl} alt={'Imagem aberta pelo modal'} />
+            <Image src={imgUrl} w="full" alt={'Imagem aberta pelo modal'} />
           </ModalBody>
 
           <ModalFooter
