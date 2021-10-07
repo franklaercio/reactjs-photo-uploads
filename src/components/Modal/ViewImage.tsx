@@ -24,7 +24,7 @@ export function ModalViewImage({
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent borderRadius="md">
-          <ModalBody>
+          <ModalBody padding="0">
             <Image src={imgUrl} w="full" alt={'Imagem aberta pelo modal'} />
           </ModalBody>
 
